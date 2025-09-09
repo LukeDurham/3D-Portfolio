@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-import { counterItems } from "../../public/constants";
+import { counterItems } from "../../constants";
 
 const AnimatedCounter = () => {
   return (

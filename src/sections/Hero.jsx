@@ -1,4 +1,4 @@
-import { words } from "../../public/constants";
+import { words } from "../../constants/index.js";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
 import Button from "../components/Button";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
