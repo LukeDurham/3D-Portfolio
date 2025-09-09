@@ -1,12 +1,49 @@
-# React + Vite
+# 🎨 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **3D portfolio website** built with [Vite](https://vitejs.dev/).  
+It showcases interactive 3D animations using **React Three Fiber** and includes **EmailJS** integration for contact form functionality.
 
-Currently, two official plugins are available:
+---
+🎬 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fully interactive 3D scenes with smooth animations
 
-## Expanding the ESLint configuration
+Contact form powered by EmailJS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fast development & optimized production build with Vite
+
+## 🚀 Tech Stack
+- ⚡ **Vite** – Fast build tool and dev server  
+- 🎭 **React Three Fiber** – React renderer for three.js (3D animations)  
+- 📧 **EmailJS** – Email service for sending messages directly from the portfolio  
+
+---
+⚙️ Configuration
+EmailJS
+
+To enable email functionality:
+
+Create an account at EmailJS
+.
+
+Get your Service ID, Template ID, and Public Key.
+
+Add them to your environment file:
+
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+## 📂 Project Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/3d-portfolio.git
+cd 3d-portfolio
+npm install
+npm run dev
+npm run build
+npm run preview
+
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
